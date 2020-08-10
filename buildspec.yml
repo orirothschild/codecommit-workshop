@@ -16,4 +16,7 @@ phases:
 artifacts:
   files:
     - target/javawebdemo.war
+    - appspec.yml
+    - scripts/**/*
+    - target/javawebdemo.war
   discard-paths: no
