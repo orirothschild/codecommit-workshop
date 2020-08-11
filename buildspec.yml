@@ -22,3 +22,4 @@ artifacts:
     - Dockerfile 
     - buildspec_docker.yml 
     - docker/**/* 
+  discard-paths: no
