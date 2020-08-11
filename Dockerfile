@@ -17,8 +17,8 @@ RUN yum -y install java
 RUN java -version 
  
 # Install Tomcat 
-RUN wget http://mirror.linux-ia64.org/apache/tomcat/tomcat-7/v7.0.96/bin/apache-tomcat-7.0.96.tar.gz && \ 
- tar -xvf apache-tomcat-7.0.96.tar.gz && \ 
+RUN wget http://mirror.linux-ia64.org/apache/tomcat/tomcat-7/v7.0.105/bin/apache-tomcat-7.0.105.tar.gz && \ 
+ tar -xvf apache-tomcat-* && \ 
  rm apache-tomcat*.tar.gz && \ 
  mv apache-tomcat* ${CATALINA_HOME} 
  
